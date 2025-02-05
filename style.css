@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: url('pudgeputin.jpg') no-repeat center center fixed;
+    background-size: cover;*/
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right -14rem bottom -10rem;
+    background-image: url();
+    height: 800px;
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#answers {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button.answer-btn {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button.answer-btn:hover {
+    background: #1e88e5;
+}
+#menu {
+    margin-top: 20px;
+    text-align: center;
+}
