@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #333;
     display: flex;
     justify-content: center;
@@ -48,6 +48,14 @@ button:hover {
     background: #45a049;
 }
 
+#main-menu {
+    background: #f44336;
+}
+
+#main-menu:hover {
+    background: #d32f2f;
+}
+
 #answers {
     margin-top: 20px;
     display: flex;
@@ -69,4 +77,14 @@ button.answer-btn:hover {
 #menu {
     margin-top: 20px;
     text-align: center;
+}
+
+button.correct {
+    background: #4caf50 !important;
+    color: white;
+}
+
+button.incorrect {
+    background: #f44336 !important;
+    color: white;
 }
